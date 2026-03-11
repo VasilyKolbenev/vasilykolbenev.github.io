@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://vasilykolbenev.com/sitemap.xml
+Sitemap: https://vasilykolbenev.github.io/sitemap.xml
