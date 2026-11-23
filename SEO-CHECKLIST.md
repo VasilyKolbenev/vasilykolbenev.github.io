@@ -27,6 +27,7 @@
 ### Social / Sharing
 - [x] **Open Graph** tags (Facebook, LinkedIn, WhatsApp, Slack)
 - [x] **Twitter Card** meta tags
+- [x] **Social preview** — 1200 × 630 portrait and title at /og-image.jpg
 
 ### Hosting & Deployment
 - [x] **GitHub Pages** — deployed at https://vasilykolbenev.github.io/
@@ -58,17 +59,7 @@
 - [ ] Re-submit sitemap in Google, Bing, Yandex with new domain
 - [ ] Set up **www → non-www** redirect
 
-### 2. Create OG Image (for social sharing previews)
-- [ ] Create a **1200x630px** image with:
-  - Your name: "Vasily Kolbenev"
-  - Title: "AI Solutions Architect"
-  - Dark theme matching the site (#09090b background)
-  - Optional: subtle tech keywords or gradient
-- [ ] Tools: **Figma**, **Canva**, or https://og-image.vercel.app
-- [ ] Save as `og-image.jpg` in the site root
-- [ ] Push to GitHub — social previews will start working immediately
-
-### 3. Backlinks & Online Presence
+### 2. Backlinks & Online Presence
 These are the **#1 factor** for ranking:
 - [ ] **GitHub profile** — add website link to bio
 - [ ] **LinkedIn** — create/update profile, link to site, post about projects
@@ -78,7 +69,7 @@ These are the **#1 factor** for ranking:
 - [ ] **Reddit** — share in r/MachineLearning, r/LocalLLaMA, r/LangChain
 - [ ] **Hugging Face** — create profile, link to projects
 
-### 4. Content Strategy (ongoing SEO growth)
+### 3. Content Strategy (ongoing SEO growth)
 Add a `/blog` section with posts like:
 - "How I Built a Production RAG System with Qdrant and Neo4j"
 - "Architecture Patterns for Multi-Agent Voice Assistants"
@@ -87,11 +78,11 @@ Add a `/blog` section with posts like:
 
 Each post = new indexed page = more search surface. Write 1-2 per month.
 
-### 5. Analytics
+### 4. Analytics
 - [ ] Add **Google Analytics 4** or **Plausible** (privacy-friendly)
 - [ ] Set up goals: contact clicks, GitHub clicks, project views
 
-### 6. Performance Check
+### 5. Performance Check
 - [ ] Run **Google PageSpeed Insights** — target 90+ on mobile and desktop
 - [ ] Site is already lightweight (~25KB HTML), should score well
 
@@ -121,12 +112,14 @@ Each post = new indexed page = more search surface. Write 1-2 per month.
 ```
 vasilykolbenev.github.io/
 ├── index.html                          ← Main page
+├── studio-portfolio.css                ← Responsive layout and typography
+├── assets/arachnid-studio.png          ← Product screenshot
 ├── photo.jpg                           ← Portrait photo
 ├── sitemap.xml                         ← For search engines
 ├── robots.txt                          ← Crawler rules
 ├── googlef080d3420ac52415.html         ← Google verification
 ├── yandex_25e869505e51bde0.html        ← Yandex verification
 ├── SEO-CHECKLIST.md                    ← This file
-├── og-image.jpg                        ← TODO: create (1200x630)
+├── og-image.jpg                        ← Social preview (1200×630)
 └── blog/                               ← TODO: future articles
 ```
